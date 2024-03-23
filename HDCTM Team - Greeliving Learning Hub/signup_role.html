@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="COS20031 Computing Technology Design Project">
+  <meta name="author" content="Lo Tuan Hung, Luong Chi Duc, Nguyen Vu Duy Minh, Hau Linh Chi, Dao Khanh Nga Thi">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/hehe.css" rel="stylesheet">
+  <link rel="icon" href="images/Favicon-02.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script src="https://kit.fontawesome.com/f73039f1ad.js" crossorigin="anonymous"></script>
+  <title>Website title appeared on the tab</title>
+</head>
+
+<body>
+    <div class="si-content">
+
+        <div class="si-form-box">
+            <img alt="Logo" src="images/Logo.png" class="logo">
+            <h1>Welcome!</h1>
+            <br>
+            <div class="si-button-box">
+                <div class="si-button-box">
+                    <button type="button" class="si-toggle-btn" onclick="location.href='login.php'">Log In</button>
+                    <button type="button" class="si-toggle-btn" id="si-btn-selected">Sign Up</button>
+                </div>
+            </div>
+            <form class="inputgr" id="su-inputgr" action="php/signup_role.php" method="GET">
+                <p>I'm a ...</p>
+                <div class="su-box">
+                    <div class="su-input-box">
+                        <button type="button" class="su-btn" value="user" onclick="location.href='signup_user.php'">
+                            <img src="icons/Person.svg">
+                            <p>Normal User</p>
+                        </button>
+                    </div>  
+
+                    <div class="su-input-box">
+                        <button type="button" class="su-btn" value="bus" onclick="location.href='signup_bus.php'">
+                            <img src="icons/PeopleGroup.svg">
+                            <p>Business</p>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="si-image">
+            <img alt="Background.png" src="images/sign_background.jpg">
+        </div>
+
+    </div>
+</body>
+
+</html>
